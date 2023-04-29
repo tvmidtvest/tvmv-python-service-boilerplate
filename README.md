@@ -12,9 +12,10 @@ $ cp EXAMPLE.env .env
 $ code .
 ```
 
-- Skriv din kode i `main.py`
+- Skriv din kode i `main.py` og eksekver med `python app/main.py` fra kommandolinjen.
 - Split op i flere filer, hvis det bliver for uoverskueligt eller det virker logisk at dele det op i flere filer. Brug `import` i main-filen.
-- Læg alle dine filer i `app`-mappen
+- Læg alle dine python-filer i `app`-mappen
+- Læg miljøvariabler som adgangskoder, api-nøgler etc i `.env`-filen.
 
 ## Logning
 
