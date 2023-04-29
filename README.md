@@ -19,11 +19,11 @@ $ code .
 - Split op i flere filer, hvis det bliver for uoverskueligt eller det virker logisk at dele det op i flere filer. Brug `import` i main-filen.
 - Læg alle dine python-filer i `app`-mappen
 - Læg miljøvariabler som adgangskoder, api-nøgler etc i `.env`-filen.
-- Fjern teksten i denne README og beskriv din service.
+- Fjern teksten i denne README og beskriv din service: Hvad gør den? Hvad er der af afhængigheder?
 
 ## Github
 
-Inden du lægger det på Github eller når du har pip-installeret nye moduler, husk da at lave en `pip freeze > requirements.txt` så de moduler du har brug for kommer med i requirements.txt.
+Inden du lægger det på Github eller når du har pip-installeret nye moduler, husk da at lave en `pip freeze > requirements.txt` så de moduler servicen har brug for kommer med i requirements.txt.
 
 Det er god stil at synkronisere med Github mindst én gang pr. dag, hvor du arbejder på koden. Ved du, at flere arbejder på samme kode, så husk at lave en `git pull` af og til, så du har den seneste version af koden.
 
