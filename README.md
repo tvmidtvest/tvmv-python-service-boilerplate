@@ -2,8 +2,11 @@
 
 ```bash
 $ git clone https://github.com/tvmidtvest/tvmv-default-service-template.git
-$ mv tvmv-default-service-template [your-service-name]
-$ cd [your-service-name]
+
+# Navngiv gerne med tvmv- foran navnet på din service.
+# Det er mere overskueligt i produktionsmiljøet.
+$ mv tvmv-default-service-template [tvmv-your-service-name]
+$ cd [tvmv-your-service-name]
 $ rm -rf .git
 $ python -m venv .venv
 $ source .venv/bin/activate
