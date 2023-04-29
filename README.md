@@ -8,6 +8,7 @@ $ rm -rf .git
 $ python -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
+$ cp EXAMPLE.env .env
 $ code .
 ```
 
