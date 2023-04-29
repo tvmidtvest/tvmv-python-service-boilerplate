@@ -43,3 +43,5 @@ logger.error(f'ERROR: {e}')
 ```
 
 I `.env`-filen kan du sætte logningsniveau og om der skal logges til konsollen. Som default står niveau til `INFO` og log til konsollen er `true`.
+
+Husk i øvrigt også lige at tjekke denne en gang i mellem: https://github.com/tvmidtvest/tvmv-docs/blob/main/best-practices.md 😉
