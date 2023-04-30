@@ -1,18 +1,37 @@
 # TVMV Default Service Template
 
-```bash
-$ git clone https://github.com/tvmidtvest/tvmv-default-service-template.git
+Navngiv gerne med 'tvmv-' foran navnet på din service. Det er mere overskueligt i produktionsmiljøet.
 
-# Navngiv gerne med 'tvmv-' foran navnet på din service.
-# Det er mere overskueligt i produktionsmiljøet.
-$ mv tvmv-default-service-template [tvmv-your-service-name]
-$ cd [tvmv-your-service-name]
-$ rm -rf .git
-$ python -m venv .venv
-$ source .venv/bin/activate
-$ pip install -r requirements.txt
-$ cp EXAMPLE.env .env
-$ code .
+```bash
+git clone https://github.com/tvmidtvest/tvmv-default-service-template.git [tvmv-your-service-name]
+```
+
+```bash
+cd [tvmv-your-service-name]
+```
+
+```bash
+rm -rf .git
+```
+
+```bash
+python -m venv .venv
+```
+
+```bash
+source .venv/bin/activate
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+cp EXAMPLE.env .env
+```
+
+```bash
+code .
 ```
 
 - Skriv din kode i `main.py` og eksekver med `python app/main.py` fra kommandolinjen.
