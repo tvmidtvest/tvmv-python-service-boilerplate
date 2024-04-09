@@ -1,6 +1,8 @@
-# TVMV Default Service Template
+# TVMV Python Service Boilerplate
 
-Navngiv gerne med 'tvmv-' foran navnet på din service. Det er mere overskueligt i produktionsmiljøet.
+Standardudgangspunkt for Python-projekter i TV MIDTVEST-regi.
+
+Intern note: Navngiv gerne med 'tvmv-' foran navnet på din service. Det er mere overskueligt i produktionsmiljøet.
 
 ```bash
 git clone https://github.com/tvmidtvest/tvmv-default-service-template.git [tvmv-your-service-name]
